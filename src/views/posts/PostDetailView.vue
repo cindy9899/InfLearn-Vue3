@@ -35,7 +35,7 @@ import { ref } from 'vue';
 import { deletePost } from '@/api/posts';
 
 const props = defineProps({
-  id: Number,
+  id: String,
 });
 
 const router = useRouter();

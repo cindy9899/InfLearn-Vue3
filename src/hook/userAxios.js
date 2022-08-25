@@ -26,7 +26,7 @@ export const useAxios = (url, config = {}, options = {}) => {
     data.value = null;
     error.value = null;
     loading.value = true;
-    axios(url, {
+    axios(unref(url), {
       ...defaultConfig,
       ...config,
       params: unref(params), //파람즈는 언래핑 해주어야 넘어간다.
@@ -51,7 +51,7 @@ export const useAxios = (url, config = {}, options = {}) => {
       });
   };
 
-  if (isRef(params)) {
+  if (isRef(params) || isRef(url)) {
     //만약 isRef로 정의한 함수(반응형)
     watchEffect(execute);
   } else {

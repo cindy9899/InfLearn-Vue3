@@ -32,15 +32,21 @@
     },
     {
       "title": "fsdfafdsf",
-      "content": "dfassf!!!!!",
+      "content": "dfassf!!!!!!!22",
       "createdAt": 1661364100347,
       "id": 15
     },
     {
       "title": "dfad ",
-      "content": "fdafㅇㄴㄹㅇㅇㄴㄹ 끗1",
+      "content": "fdafㅇㄴ",
       "createdAt": 1661364104128,
       "id": 16
+    },
+    {
+      "title": "게시글 제목",
+      "content": "게시글 내용",
+      "createdAt": 1661432058172,
+      "id": 17
     }
   ]
 }

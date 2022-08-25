@@ -12,6 +12,7 @@
     "axios": "^0.27.2",
     "bootstrap": "^5.2.0",
     "bootstrap-icons": "^1.9.1",
+    "dayjs": "^1.11.5",
     "vue": "^3.2.37",
     "vue-router": "^4.1.4"
   },
@@ -23,6 +24,7 @@
     "eslint-plugin-vue": "^9.3.0",
     "json-server": "^0.17.0",
     "prettier": "^2.7.1",
+    "unplugin-vue-components": "^0.22.4",
     "vite": "^3.0.4"
   }
 }
